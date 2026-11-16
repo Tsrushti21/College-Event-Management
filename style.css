@@ -80,3 +80,38 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+/* Event Gallery Styling */
+
+#gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f4f4f9;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.gallery-card {
+    width: 280px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.gallery-card h3 {
+    padding: 15px;
+}
