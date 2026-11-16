@@ -80,3 +80,40 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Event Registration Styling */
+
+#registration {
+    padding: 40px 20px;
+    text-align: center;
+    background: #e8edf7;
+}
+
+#registrationForm {
+    max-width: 400px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#registrationForm input,
+#registrationForm select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#registrationForm button {
+    padding: 12px;
+    background: #243b67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+}
